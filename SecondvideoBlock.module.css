@@ -1,0 +1,22 @@
+/* SecondvideoBlock.module.css */
+
+.video {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.videoItem { /* Changed from .video-item to .videoItem */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+.videoItem video {
+    display: block; /* Ensures video takes full width of its container */
+    max-width: 100%;
+    height: auto;
+}

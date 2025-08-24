@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.offer {
+    background-color: #006A71;
+    padding: 1px;
+    text-align: center;
+
+    color: #F2EFE7;
+}
+
+.companyName {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    background-color: #006A71;
+}
+
+.companyName img {
+    width: auto;
+    height: 9rem;
+    margin-left: 104px;
+    border-radius: 50%;
+}
+
+.companyName h1 {
+    font-size: 2rem;
+    color: #F2EFE7;
+    margin: 50px;
+    font-size: 2.2rem;
+
+}
+
+#productsearch {
+    height: 5px
+}
+
+.enterproduct input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.enterproduct {
+    width: 35rem;
+
+}
+
+.Bannertwo {
+    width: 100%;
+    height: 400px;
+    /* Set your desired height */
+    background-image: url('./myimage/theunfoldbanner1.png');
+    /* Adjust path if needed */
+    background-size: cover;
+    background-position: center;
+    background-origin: border-box;
+    /* background-repeat: no-repeat; */
+}
